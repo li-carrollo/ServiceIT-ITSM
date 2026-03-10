@@ -11,10 +11,14 @@ We use wget to download the raw version of the file so you don't accidentally do
 
 
 wget https://raw.githubusercontent.com/li-carrollo/ServiceIT-ITSM/main/sit-itsm.sh
+
+
 2. Make it executable
 In Linux, new files aren't allowed to run as programs by default. You need to grant execution permissions:
 
 chmod +x sit-itsm.sh
+
+
 3. Run the script
 Now you can execute it. Since it's an ITSM service script, it might require administrative privileges (sudo) depending on what it installs:
 
